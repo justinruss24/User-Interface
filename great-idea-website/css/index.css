@@ -67,3 +67,48 @@ h1, h2, h3, h4, h5 {
 body {
 	margin: 5%;
 }
+header {
+	border-bottom: 1px solid black;
+}
+/*All css on the navigation bar*/
+nav a{
+	padding: 0 3%;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+}
+nav img{
+	padding: 2%;
+	display: inline-block;
+}
+/*css on the h1 and header*/
+h1 {
+	font-size: 50px;
+	width: 20%;
+}
+.left-info{
+	display: inline-block;
+	width: 45%;
+	padding: 2%;
+	text-align: center;
+}
+.right-info{
+	display: inline-block;
+	width: 45%;
+	padding: 2%;
+}
+/*CSS on the first section*/
+.sec1-info {
+	display: inline-block;
+	width: 48%;
+	padding: 2%;
+}
+/*CSS on the second section*/
+.sec2-info{
+	display: inline-block;
+	width: 32%;
+	padding: 2%;
+}
+#section2 {
+	border-bottom: 1px solid black;
+}
