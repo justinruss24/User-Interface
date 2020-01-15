@@ -108,10 +108,9 @@ h1 {
 }
 .content {
 	width: 48%;
-	padding: 1%;
+	padding: 10% 0;
 	display: inline-block;
 	margin: 0 auto;
-	padding-bottom: 5px;
 }
 button {
 	padding: 6px 38px;
