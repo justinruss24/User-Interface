@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 5%;
+	margin: 5% 8%;
+
 }
 header {
 	border-bottom: 1px solid black;
@@ -76,47 +77,63 @@ nav a{
 	color: grey;
 	text-decoration: none;
 	display: inline-block;
+	margin: 0 1%;
 }
-nav img{
-	padding: 2%;
+nav {
+	width: 80%;
+}
+.logo {
 	display: inline-block;
+	width: 25%;
+	margin-left: 81%;
+	margin-top: -10%;
+	padding-top: -10%;
+	padding-right: 3%;
 }
 /*css on the h1 and header*/
 h1 {
-	font-size: 50px;
-	width: 20%;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 5%;
 }
 .left-info{
-	display: inline-block;
-	width: 48%;
-	padding: 2%;
-	text-align: center;
+
+	padding-bottom: 10%;
 }
 .right-info{
+	
+}
+#right-img {
+	width: 80%;
+}
+.content {
+	width: 48%;
+	padding: 1%;
 	display: inline-block;
-	width: 45%;
-	padding: 2%;
+	margin: 0 auto;
+	padding-bottom: 5px;
 }
 button {
-	padding: 8px 40px;
+	padding: 6px 38px;
 	background-color: none;
 	font-size: 15px;
 	color: black;
 	border-color: black;
+	margin-left: 30%;
 }
 /*CSS on the first section*/
 .sec1-info {
 	display: inline-block;
-	width: 48%;
-	padding: 2%;
+	width: 49%;
+	padding: 1%;
 	margin: 4% 0 4% 0;
 	line-spacing: 1.5;
 }
-#mid-img {
-	display: inline-block;
+
+/*CSS on the second section*/
+.middle-img {
 	width: 100%;
 }
-/*CSS on the second section*/
 .sec2-info{
 	display: inline-block;
 	width: 32%;
