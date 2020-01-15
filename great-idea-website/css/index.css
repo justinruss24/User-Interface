@@ -88,7 +88,7 @@ h1 {
 }
 .left-info{
 	display: inline-block;
-	width: 45%;
+	width: 48%;
 	padding: 2%;
 	text-align: center;
 }
@@ -97,18 +97,47 @@ h1 {
 	width: 45%;
 	padding: 2%;
 }
+button {
+	padding: 8px 40px;
+	background-color: none;
+	font-size: 15px;
+	color: black;
+	border-color: black;
+}
 /*CSS on the first section*/
 .sec1-info {
 	display: inline-block;
 	width: 48%;
 	padding: 2%;
+	margin: 4% 0 4% 0;
+	line-spacing: 1.5;
+}
+#mid-img {
+	display: inline-block;
+	width: 100%;
 }
 /*CSS on the second section*/
 .sec2-info{
 	display: inline-block;
 	width: 32%;
 	padding: 2%;
+	margin: 4% 0 4% 0;
+	line-spacing: 1.5;
+
 }
 #section2 {
 	border-bottom: 1px solid black;
+}
+/*CSS for the footer*/
+footer h2 {
+	margin-top: 4%;
+}
+footer p {
+	padding-top: 1%;
+	line-spacing: 1.5;
+	margin: 1% 0 2% 0;
+}
+#copyright {
+	text-align: center;
+	margin: 5% 0 10% 0;
 }
