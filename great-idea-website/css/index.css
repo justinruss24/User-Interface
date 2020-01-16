@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 5% 8%;
+
+}
+header {
+	border-bottom: 1px solid black;
+}
+/*All css on the navigation bar*/
+nav a{
+	padding: 0 3%;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 1%;
+}
+nav {
+	width: 80%;
+}
+.logo {
+	display: inline-block;
+	width: 25%;
+	margin-left: 81%;
+	margin-top: -10%;
+	padding-top: -10%;
+	padding-right: 3%;
+}
+/*css on the h1 and header*/
+h1 {
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 5%;
+}
+.left-info{
+
+	padding-bottom: 10%;
+}
+.right-info{
+	
+}
+#right-img {
+	width: 80%;
+}
+.content {
+	width: 48%;
+	padding: 10% 0;
+	display: inline-block;
+	margin: 0 auto;
+}
+button {
+	padding: 6px 38px;
+	background-color: none;
+	font-size: 15px;
+	color: black;
+	border-color: black;
+	margin-left: 30%;
+}
+/*CSS on the first section*/
+.sec1-info {
+	display: inline-block;
+	width: 49%;
+	padding: 1%;
+	margin: 4% 0 4% 0;
+	line-spacing: 1.5;
+}
+
+/*CSS on the second section*/
+.middle-img {
+	width: 100%;
+}
+.sec2-info{
+	display: inline-block;
+	width: 32%;
+	padding: 2%;
+	margin: 4% 0 4% 0;
+	line-spacing: 1.5;
+
+}
+#section2 {
+	border-bottom: 1px solid black;
+}
+/*CSS for the footer*/
+footer h2 {
+	margin-top: 4%;
+}
+footer p {
+	padding-top: 1%;
+	line-spacing: 1.5;
+	margin: 1% 0 2% 0;
+}
+#copyright {
+	text-align: center;
+	margin: 5% 0 10% 0;
+}
